@@ -1,1 +1,5 @@
 *.otf
+*.*gf
+*.log
+*.dvi
+*.pk
