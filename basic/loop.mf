@@ -4,8 +4,9 @@ z2=(50, 60);
 z3=(120, 10);
 z4=(z2+z3)/2;
 
-
-draw z0..z4..z1..z2..z4..z3..cycle;
+pickup pencircle xscaled 30 yscaled 5 rotated 30;
+draw z0..z4..z1{z0-z3}..z2..z4..z3..tension 1.2..cycle;
+fill z1--z2--z4--cycle;
 
 labels(range 0 thru 4);
 showit; shipit; end

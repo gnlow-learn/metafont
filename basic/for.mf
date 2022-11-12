@@ -1,0 +1,2 @@
+for d=0 step 10 until 120:
+    draw (0, 0){dir 60} .. {dir -d}(6cm, 0);endfor;
