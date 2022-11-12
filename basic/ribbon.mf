@@ -1,0 +1,9 @@
+z0=(0,0);
+z1=(30, 30);
+z2=(30, 100);
+z3=(60,0);
+
+draw z0..z1{right}..z2..z1..z3;
+
+labels(range 0 thru 3);
+showit; shipit; end
