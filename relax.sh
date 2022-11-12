@@ -1,0 +1,1 @@
+mf --interaction=errorstopmode --screen "\relax"

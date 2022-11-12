@@ -2,4 +2,9 @@
 *.*gf
 *.log
 *.dvi
-*.pk
+*.*pk
+*.tfm
+
+*.aux
+*.gz
+*.pdf
