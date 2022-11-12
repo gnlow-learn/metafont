@@ -12,4 +12,5 @@ function relax {
 function proof {
     mf "$1.mf"
     gftodvi "$1.2602gf"
+    explorer "$1.dvi"
 }

@@ -1,0 +1,18 @@
+Phi=(1+sqrt5)/2;
+w=100;
+h=Phi*w;
+  y3    =h;
+ y2=y4;
+y1 = y5 =0;
+
+x1=0;
+x3=(x2+x4)/2=w/2;
+x5=Phi*(x4-x2)=w;
+
+(y3-y2)=Phi*(y2-y1);
+
+draw z1..z3;
+draw z3..z5;
+draw z2..z4;
+labels(range 1 thru 5);
+showit; shipit; end
