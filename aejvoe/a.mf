@@ -1,0 +1,24 @@
+vardef mid(expr a, b) =
+    (a + b) / 2
+enddef;
+
+h = 100;
+w = 80;
+
+x1 = x6 = 0;
+x2 = w;
+x3 = x4 = w / 2;
+
+y1  =  y2 = h;
+y3 = h * 2 / 3;
+y4 = y7 = h * 1 / 3;
+y5 = h / 2;
+y6 = 0;
+
+x5 = w * 1 / 8;
+x7 = w;
+
+pickup pencircle xscaled 20 yscaled 3 rotated 30;
+draw z1--z2{down}..z4{left}..z5..z3{right}..z7{down}..{left}z6;
+labels(range 1 thru 7);
+showit; shipit; end
